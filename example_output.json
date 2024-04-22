@@ -10,7 +10,7 @@
     "Owner":".Whatap APM",
     "Status":"{RECOVERED if subject includes 'RECOVERED' else ACTIVE}",
     "Subject": "{subject}",
-    "Symptom": "{ProblemID}<br>{ProblemDetailsText}<br>{ProblemImpact}",
+    "Symptom": "{eventMessage}",
     "Urgency": "{level}",
     "Impact": "{level}",
     "OwnerTeam": "Service Desk",
