@@ -9,7 +9,7 @@ notihub에서 알림이 발생할 때마다 실행되는 플러그인의 예시�
 플러그인 사용법은 다음과 같습니다.
 
 - `CustomSenderPlug.x`를  `/data/whatap/plugin` 에 복사합니다. 파일의 경로와 이름 모두 변경해선 안 됩니다.
-- `/data/whatap/logs/notihub.log 파일에서 `[WA133] CustomSenderPlug loaded` 라는 내용이 있고, 관련 에러 로그가 없다면 정상적으로 로드된 것입니다.
+- `/data/whatap/logs/notihub.log` 파일에서 [WA133] CustomSenderPlug loaded` 라는 내용이 있고, 다른 에러 로그가 없다면 정상적으로 로드된 것입니다.
 - webhook 서버를 빌드하고 실행합니다
   - (mockserver 디렉토리에서) `go build` 
   - `nohup ./mockserver &`
