@@ -64,7 +64,7 @@ if(onOff) {
         newJsonMap.put("OwnerTeam", "Service Desk");
         newJsonMap.put("Source", $projectName);
 
-        // 새로운 JSON 출력
+        // New JSON output
         StringBuffer newJson = new StringBuffer("{\n");
         java.util.Iterator newIt = newJsonMap.entrySet().iterator();
         while (newIt.hasNext()) {
@@ -77,11 +77,11 @@ if(onOff) {
         }
         newJson.append("\n}");
 
-        // 로그 함수가 정의되어야 함
+        // log function must be defined
         log(newJson.toString());
 
 
-        // Webhook 호출
+        // Call the webhook
         java.net.URL url = new java.net.URL("http://localhost:9080/webhook");
         java.net.HttpURLConnection con = (java.net.HttpURLConnection) url.openConnection();
         con.setRequestMethod("POST");
@@ -103,7 +103,7 @@ if(onOff) {
         }
         in.close();
 
-        // 웹훅 호출 결과 출력
+        // Result of the webhook call
         log("HTTP Response Code: " + responseCode);
         log("HTTP Response Body: " + response.toString());
 
