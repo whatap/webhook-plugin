@@ -1,0 +1,23 @@
+{
+    "eventMessage": "Vertical pattern was detected in the project hitmap.",
+        "eventTitle": "HITMAP_VERTICAL_PATTERN",
+        "product": "APM",
+        "pcode": "1",
+        "oname": "null",
+        "level": "Warning",
+        "subject": "[Warning][JAVA][운영서버`APM모니터링][HITMAP_VERTICAL_PATTERN]",
+        "project": "운영서버APM모니터링",
+        "message": {
+            "메트릭스 현재값": "0",
+            "프로젝트 이름": "운영서버APM모니터링",
+            "이벤트 시작 시간": "2024-04-22 09:09:00 +0900",
+            "메트릭스 임계값": "0",
+            "알림 타입": "HITMAP-PATTERN",
+            "메트릭스 이름": "hitmap",
+            "프로젝트 코드": "1",
+            "이벤트 메시지": "Vertical pattern was detected in the project hitmap."
+        },
+        "value": "null",
+        "uuid": "f76ea70a95494566af9b4195c518ca1f",
+        "status": "ON"
+}

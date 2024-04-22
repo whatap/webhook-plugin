@@ -27,5 +27,5 @@ func echoHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
     http.HandleFunc("/webhook", echoHandler) // "/webhook" 경로에 핸들러 등록
-    log.Fatal(http.ListenAndServe(":8080", nil)) // 8080 포트에서 서버 실행
+    log.Fatal(http.ListenAndServe(":9080", nil)) // 8080 포트에서 서버 실행
 }

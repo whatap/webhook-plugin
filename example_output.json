@@ -1,0 +1,18 @@
+{
+    "ServiceCategory": "INFORMATION TECHNOLOGY",
+    "Service": "Technology Infrastructure & Platform",
+    "Category": "Whatap",
+    "Subcategory": "{product}",
+    "CustomerLocation": "HEAD OFFICE",
+    "ProfileFullName": ".Whatap",
+    "ProfileLink_Category": "Employee",
+    "ProfileLink_RecID": "6D141BE2B3F64EE0BC369F72D752CC77",
+    "Owner":".Whatap APM",
+    "Status":"{RECOVERED if subject includes 'RECOVERED' else ACTIVE}",
+    "Subject": "{subject}",
+    "Symptom": "{ProblemID}<br>{ProblemDetailsText}<br>{ProblemImpact}",
+    "Urgency": "{level}",
+    "Impact": "{level}",
+    "OwnerTeam": "Service Desk",
+    "Source": "{project}"
+}
